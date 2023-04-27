@@ -1,0 +1,278 @@
+body {
+    background-color: #020111;
+    margin: 0;
+    height: 100vh;    
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+    font-family: 'poppins', sans-serif;
+    
+}
+.header {
+    width:100%;
+    max-width: 900px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;    
+}
+
+.header__link {
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 4px;
+}
+
+.header__link:hover {
+    opacity: .6;
+}
+
+.header__link:focus {
+    outline: none;
+    background-color: #f8f0f8;
+    border-radius: 5px;
+}
+
+.icone {
+    width: 24px;
+    border-radius: 50%;
+}
+
+.icone--texto {
+    margin: 0 8px;
+    animation: pulsar 1s infinite alternate;
+}
+
+.main {
+    width: 100%;
+    max-width: 900px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    
+}
+
+.perfil {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil__foto {
+    height: 60%;
+    width: 110%;        
+    
+}
+
+.perfil__nome {
+    color: #e89144;
+    font-family: 'Sacramento', cursive;
+    font-size: 70px;
+    font-weight: 400;
+    margin: 16px 0;
+}
+
+.perfil__descricao {
+    color: #8fd9c6;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 16px 0;
+        
+}
+
+.section {
+    padding: 8px;
+    width: 100%;
+    max-width: 700px;
+    margin: 24px auto;
+    box-sizing: border-box;
+    
+}
+
+.section__titulo {
+    font-size: 25px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 16px 0;
+}
+
+.img__bio {
+    height: 60%;
+    width: 100%;
+}
+
+.biografia {
+    background-color: #faeded;
+    padding: 8px;
+    margin: 16px 0;
+    box-sizing: border-box;
+    border-radius: 3px; 
+}
+
+.biografia__titulo {
+    color: #e22f89;
+    font-family: 'poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 8px 0;
+}
+
+.biografia__descricao {
+    font-size: 20px;
+    font-weight: 400;
+    color: #1f1347;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.descricao_quiz {
+    color: #8fd9c6;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 16px 0;
+}
+
+.titulo_quiz {
+    font-size: 50px;
+    font-family: 'poppins', sans-serif;
+    color: #e89144;
+}
+  
+.container-quiz {
+    background-color: #faeded;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 700px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+}
+  
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+  
+.spnQtd {
+    text-align: end;
+}
+  
+.answers {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+  
+.button {
+    width: 100%;
+    text-align: start;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #008CCC;
+    color: white;
+}
+  
+.finish {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+}
+  
+.finish button {
+    text-align: center;
+}
+
+.container-slider {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .container-images {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+  }
+  
+  .slider {
+    opacity: 0;
+    transition: opacity .2s;
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .on {
+    opacity: 1;
+  }
+  
+  #prev-button, #next-button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  #prev-button img, #next-button img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #prev-button {
+    transform: rotate(180deg);
+  }
+
+.video__bio {
+    width: 100%;    
+    height:400px;
+    text-align: center;
+    border: 6px solid #ff5c8d;
+}
+
+.footer {
+    width: 100%;
+    height: 42px;
+    background-color: #fdeff4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.footer__texto {
+    font-size: 14px;
+    font-weight: 400;
+    color: #524a4e;
+    display: flex;
+    align-items: center;
+}
+
+@keyframes pulsar {
+    0% {
+        transform: scale(.8);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+}
