@@ -1,5 +1,6 @@
 # carolshaw-inspiration
 Repositório do Projeto Final do curso de Programação Web para Iniciantes da WoMakersCode.
+<br>Vem dar uma olhada no meu site : https://giannycabral.github.io/carolshaw-inspiration/
 
 <h1>Criar um site sobre uma mulher importante na tecnologia.</h1>
 <h3><br><strong>Estrutura e Requisitos</strong></h3>
