@@ -12,47 +12,51 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Sacramento&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="assets/css/estilo.css">
         <script src="assets/js/script.js" type="module" defer></script>
 
         <title>Carol Shaw</title>
     </head>
     <body>
-        <header class="header">
-            <a href="https://instagram.com/giannycabral?igshid=ZDdkNTZiNTM=" class="header__link" title= "Me acompanhe no Instagram">
-                <img class="icone" alt="" src="assets/icones/instagram.svg">
-            </a>
-            
-            <a href="https://www.linkedin.com/in/regiane-jesus" class="header__link" title= "Me acompanhe no Linkedin">
-               <img class="icone" alt="" src="assets/icones/linkedin.svg">
-            </a>
-
-            <a href="https://twitter.com/giannycabral?t=CquYgl2pOw6yFGvfqTEftg&s=09" class="header__link" title= "Me acompanhe no Twitter">
-                <img class="icone" alt="" src="assets/icones/twitter.svg">
-            </a>
-
-            <a href="https://github.com/giannycabral" class="header__link" title= "Me acompanhe no GitHub">
-                <img class="icone" alt="" src="assets/icones/github.svg">
-            </a>
+        <header >
+            <nav>
+                <a class="logo" href="/">+ Mulheres Na Tecnologia</a>
+                <div class="mobile-menu">
+                  <div class="line1"></div>
+                  <div class="line2"></div>
+                  <div class="line3"></div>
+                </div>
+                <ul class="nav-list">
+                  <li><a href="#perfil">Início</a></li>
+                  <li><a href="#secao2">Biografia</a></li>
+                  <li><a href="#secao3">Projetos</a></li>
+                  <li><a href="#secao4">Quiz</a></li>
+                  <li><a href="#secao5">Galeria de Fotos</a></li>
+                  <li><a href="#secao6">Videos</a></li>
+                  <li><a href="#footer_contacts">Contatos</a></li>
+                </ul>
+              </nav>
         </header>
+        <script src="assets/js/mobile-navbar.js"></script>
 
         <main class="main"> 
-            <div class="perfil">
+            <div  class="perfil">
                 <img class="perfil__foto" alt="Carol Shaw segurando sua Placa de Platina" src="assets/imagens/banner.png">
-                <h1 class="perfil__nome">Quem é Carol Shaw ?</h1>
+                <h1 id="secao1" class="perfil__nome">Quem é Carol Shaw ?</h1>
                 <p class="perfil__descricao"> O universo dos games, em seu início, foi conhecido por não ter muitas mulheres na aréa de desenvolvimento de games.
                     Todavia, após um certo tempo, <strong>Carol Shaw</strong> mudou está questão.
                 </p>
             </div>
 
             <section class="section">
-                <h2 class="section__titulo">Carol Shaw, a primeira mulher a desenvolver videojogos, foi responsável por uma revolução de género no mundo da computação.
+                     <h2 id="secao2" class="section__titulo">Carol Shaw, a primeira mulher a desenvolver videojogos, foi responsável por uma revolução de género no mundo da computação.
                      Desenvolveu o primeiro videojogo em 1978 e é a história de sucesso de hoje.</h2>
 
-                     <article class="biografia">
+                    <article  class="biografia">
                         <div class="img">
                         <img class="img__bio" src="assets/imagens/12.JPG" alt="Carol em sua infância"/></div> 
-                        <h3 class="biografia__titulo"></h3> 
+                        <h3  class="biografia__titulo"></h3> 
                         <p class="biografia__descricao">                                                       
                             Carol nasceu em 1955 em Palo Alto, uma cidade da Califórnia – onde também passou sua infância e adolescência. 
                             Seu pai era engenheiro mecânico e trabalhava na Standford Linear Accelerator Center (ou o Centro de Aceleração Linear de Standford) – um laboratório que realizava projetos relacionados à energia para o governo. Sua mãe era dona de casa, mas, após um tempo, começou a trabalhar em uma livraria.<br>
@@ -67,9 +71,9 @@
 
                             Nos anos 60/70, Carol usou pela primeira vez um computador enquanto frequentava a escola secundária, em Palo Alto, na Califórnia. Na escola mostrou os seus dotes para a matemática e para o código.<br>Estudou na Universidade de Berkeley na Califórnia, onde viria a obter um mestrado em ciências computacionais. Foi imediatamente contratada pela gigante dos videojogos, Atari Inc.
                         </p>
-                     </article>
+                    </article>
                      
-                     <article class="biografia">
+                    <article class="biografia">
                         <h3 class="biografia__titulo">Seu inicio e Saida da Atari</h3>
                         <p class="biografia__descricao">O trabalho de Carol Shaw na Atari começou em 1978, na programação de jogos para a consola 2600. Infelizmente, acabou por ser uma das engenheiras e designers mais bem-sucedidas da empresa menos faladas, muito graças ao domínio masculino da área da programação e computação.<br>
                             Um dos primeiros projetos em que trabalhou foi o Polo, uma ligação promocional para o perfume com o mesmo nome de Ralph Lauren. O jogo chegou ao protótipo, mas a Atari optou por não o lançar.                            
@@ -78,9 +82,9 @@
                             <div class="img">
                             <img class="img__bio" src="assets/imagens/t1.png"  alt="Capa dos jogos Video Checkers e 3D tic tac toe"/></div>
                                                     
-                     </article>
+                    </article>
 
-                     <article class="biografia">
+                    <article class="biografia">
                         <h3 class="biografia__titulo">Entrando na Activision</h3>
                         <p class="biografia__descricao">Em 1982, começou a trabalhar para a Activision, onde entrou, mais uma vez, como a primeira e única engenheira da equipa. Foi nesta empresa que criou o jogo que a viria a tornar famosa nos anos 80, o River Raid. É considerado um clássico e um dos jogos mais populares do seu tempo, juntamente com o Pac-man.<br>                            
                             A versão do jogo para Atari 2600 vendeu um milhão de cópias, sem contar as cópias não autorizadas. O jogo consiste em controlar um avião ao longo de um rio, e pela primeira vez o utilizador segue verticalmente ao longo do jogo. O sucesso do River Raid permitiu uma reforma antecipada a Carol Shaw, que se dedicou e tem dedicado ao trabalho voluntário, desde os anos 90.<br>                            
@@ -88,9 +92,9 @@
                             <div class="img">
                             <img class="img__bio" src="assets/imagens/t2.jpeg"  alt="Capa do jogo River Raid"/></div>
                     
-                     </article>
-                     <article class="biografia">
-                        <h3 class="biografia__titulo">Projetos</h3>
+                    </article>
+                    <article class="biografia">
+                        <h3 id="secao3" class="biografia__titulo">Projetos</h3>
                         <p class="biografia__descricao">Ainda na Activision, Carol teve uma nova ideia. Ela começou a trabalhar em um jogo chamado Happy Trails, que era inspirado em um jogo chamado Locomotion – um puzzle de arrastar blocos.<br>Happy Trails foi programado para Intellivision, que era bem menos limitado que o Atari. Assim, o plano de fundo podia ser mais detalhado, e mais objetos poderiam ser inseridos no jogo.
                             Os jogos na época eram de ordenar números em matrizes 4×4, arrastando os blocos para isso.<br> Baseado nessa ideia, em Happy Trails você movia os blocos e montava uma estrada para personagem andar. E assim, ele conseguia coletar o dinheiro e ganhava uma pontuação.
                             Depois de Happy Trails, Carol ainda programou outro jogo para ColecoVision: Uma aventura gráfica onde você podia se movimentar em um labirinto em baixo da terra. Mas os planos não eram somente esses, o jogo seria bem mais expandido.<br>                            
@@ -99,9 +103,9 @@
                         </p>
                         <div class="img">
                             <img class="img__bio" src="assets/imagens/t3.png"  alt="Capa do jogo Happy Trails e Calculator"/></div>
-                     </article>
+                    </article>
 
-                     <article class="biografia">
+                    <article class="biografia">
                         <h3 class="biografia__titulo">Uma Inspiração para outas Mulheres</h3>
                         <p class="biografia__descricao">Sua história acabou servindo como inspiração e porta de entrada para outras mulheres na indústria dos videogames. Shaw deixava claro em entrevistas que não queria medir forças com os programadores homens, ou virar ativista, mas sim trabalhava com jogos porque gostava de desenvolvê-los.<br>
                             Carol teve contato com o feminismo nas aulas de sociologia no ensino médio, e relatou que acredita que este movimento fez com que as mulheres se sentissem livres para ingressarem na área da tecnologia.
@@ -111,7 +115,7 @@
                             <img class="img__bio" src="assets/imagens/citacao.png"  alt="Frase de Carol"/></div>
                     </article>
                     
-                       <h2 class="titulo_quiz">QuizShaw</h2>
+                       <h2 id="secao4" class="titulo_quiz">QuizShaw</h2>
                        <p class="descricao_quiz">Parabéns por chegar até aqui! Agora é hora  de testar seus conhecimentos.</p>
                     <div class="container-quiz">
                        <div class="content">
@@ -124,11 +128,13 @@
                         <button>Reiniciar</button>
                       </div>
                     </div>
-                                         
-            </section>   
+                                   
+            </section> 
+            <h2 id="secao5" class="slider__galeria">Fotos</h2>
             <div class="container-slider">
                 <button id="prev-button"><img src="assets/icones/seta.png" alt="prev-button"></button>
                 <div class="container-images">
+                   
                   <img src="assets/imagens/01.png" alt="" class="slider on">
                   <img src="assets/imagens/02.png" alt="" class="slider">
                   <img src="assets/imagens/03.jpeg" alt="" class="slider">
@@ -141,19 +147,78 @@
                   <img src="assets/imagens/10.JPG" alt="" class="slider">
                   <img src="assets/imagens/11.JPG" alt="" class="slider">
                   <img src="assets/imagens/12.JPG" alt="" class="slider">
-                </Div>
+                </div>
                 <button id="next-button"><img src="assets/icones/seta.png" alt="next-button"></button>
-              </Div>          
+            </div>  
+                    
             <div class="video">
+                <h2 id="secao6" class="video__titulo">Videos</h2>
             <iframe class="video__bio" frameborder="0" allow="accelerometer autoplay clipboard-write encrypted-media gyroscope picture-in-picture web-share allowfullscreen" alt="video sobre Carol Shaw" src="https://www.youtube.com/embed/YUSCE0QjN0c" title="YouTube video player Game Award 2017- Carol Shaw"></iframe></div>
             <div class="video">
                 <iframe class="video__bio" frameborder="0" allow="accelerometer autoplay clipboard-write encrypted-media gyroscope picture-in-picture web-share allowfullscreen" alt="video sobre Carol Shaw" src="https://www.youtube.com/embed/LjsJYpB3cNs" title="YouTube video player Biografia Carol Shaw"></iframe></div>           
         </main>          
-            <footer class="footer">
-            <span class="footer__texto">
-                Feito com
-                <img class="icone icone--texto" alt="amor" src="assets/icones/coracao.svg">
-                por Regiane Cabral
-            </span>            
+        <footer>
+            <div id="footer_content">
+                <div id="footer_contacts">
+                    
+                    <p>Redes Sociais</p>
+
+                    <div id="footer_social_media">
+                        <a href="https://instagram.com/giannycabral?igshid=ZDdkNTZiNTM=" title="Me acompanhe no instagram" class="footer-link" id="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="https://twitter.com/giannycabral?t=CquYgl2pOw6yFGvfqTEftg&s=09" title="Me acompanhe no twitter" class="footer-link" id="twitter">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+
+                        <a href="https://github.com/giannycabral" title="Me acompanhe no github" class="footer-link" id="github">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/regiane-jesus" title="Me acompanhe no linkedin" class="footer-link" id="linkedin">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <ul class="footer-list">
+                    <li>
+                        <h3>+Sobre Carol Shaw</h3>
+                    </li>
+                    <li>
+                        <a href="https://viciogameblog.com/2012/06/24/carol-shaw-a-primeira-mulher-programadora-de-jogos/" class="footer-link">VicioGameBlog</a>
+                    </li>
+                    <li>
+                        <a href="https://bdjogos.com.br/pessoa.php?id=5067" class="footer-link">Lista de Jogos</a>
+                    </li>
+                    <li>
+                        <a href="https://www.memoriabit.com.br/entrevista-com-carol-shaw-primeira-mulher-game-designer/" class="footer-link">Entrevista</a>
+                    </li>
+                </ul>
+                
+                <div id="footer_mensagem">
+                
+                    <p> 
+                        Este é um projeto final do curso de Programação para iniciantes,
+                        da WoMakersCode, onde tive que escolher uma mulher importante
+                        na tecnologia e criar um site sobre ela. E escolhi Carol Shaw como
+                        inspiração. Fique a vontade para saber mais sobre essa mulher 
+                        incrivel!!
+                        <br>
+                        Feito com muito
+                        carinho por mim.-Regiane Cabral
+                    </p>        
+                </div>
+                <div id="footer_icon">
+                <img src="assets/icones/icon.png" alt="" />
+                </div>
+            </div>
+
+            <div id="footer_copyright">
+                &#169
+                2023 all rights reserved
+            </div>
+        </footer>
     </body>
 </html>
