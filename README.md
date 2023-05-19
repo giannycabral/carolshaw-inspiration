@@ -23,3 +23,9 @@ Repositório do Projeto Final do curso de Programação Web para Iniciantes da W
 
 <h4>5. Teste e faça ajustes<br></h4>
 <em>-Depois que o site estiver pronto, é importante testá-lo em diferentes navegadores  e  dispositivos  para  garantir  que  tudo  funcione corretamente.</em>
+
+<h2>Desktop</h2>
+<img src="https://github.com/giannycabral/carolshaw-inspiration/assets/111747423/cefe76e2-df0c-42b4-9d47-bd591ee5be38">
+
+<h2>Mobile</h2>
+<img src="https://github.com/giannycabral/carolshaw-inspiration/assets/111747423/06e6a0f5-d71d-4ed2-ba72-6da541a96d34">
